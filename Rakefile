@@ -15,3 +15,4 @@ task :console => :environment do
   Pry.start
 end
 
+namespace :db do
